@@ -31,7 +31,7 @@ slow_print("A strange painting on the wall catches your eye. " \
 while True:
   action = input("What do you want to do? \n 1. look at painting, \n 2. look at bookshelf, " \
   "\n 3. look at the table,\n 4. look at the door,\n 5. look at the chair, " \
-  "\n 7. look at the window \n 6. Check Inventory: ")
+  "\n 6. look at the window \n 7. Check Inventory: ")
 
   if action == "1":
     slow_print("You approach the painting and notice that the colors seem to shift as you look at it." \

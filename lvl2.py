@@ -37,7 +37,7 @@ def play(inventory):
     if not chain_found:
       choice = input ("1. feel around: ")
     else:
-      choice = input("1. feel around:  \n 2. pull the chain: ")
+      choice = input("1. feel around:  \n2. pull the chain: ")
 
     if choice == "1":
       if not chain_found:

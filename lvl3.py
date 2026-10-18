@@ -99,6 +99,15 @@ def play(inventory):
         slow_print("You glance at the dollhouse. The tiny figure is gone from the library.")
         time.sleep(1)
         slow_print("You run through the door.")
+        time.sleep(1)
         return
       else:
         slow_print("The dial spins. The door doesn't budge")
+
+    elif action == "7":
+      if len(inventory) == 0:
+        slow_print("Your inventory is empty.")
+      else:
+        slow_print("You are carrying: ")
+        for item in inventory:
+          slow_print("- " + item)

@@ -81,6 +81,7 @@ def play(inventory):
       else:
         slow_print("The wardrobe door swigns open. Inside hangs a child's coat.")
         slow_print("In the pocket is a ticket stamped 9:10. (+1 coat ticket)")
+        slow_print("9:10 You stare at the time for a moment. Something tells you it's important")
         slow_print("Pinned to the coat is a note: 'The door opens only at the time she left'")
         inventory.append("coat ticket")
         wardrobe_open = True

@@ -77,6 +77,7 @@ def play(inventory):
         slow_print("It's a photograph of a woman and a girl, holding hands infront of a tall house.")
         slow_print("The girl has a scar on her wrist. It looks exactly like the one on yours.")
         slow_print("On the back, in faded ink: 'For my girl's tenth birthday. 03/14.'")
+        slow_print("03/14. Something tells you it's important")
         inventory.remove("photo piece 1")
         inventory.remove("photo piece 2")
         inventory.remove("photo piece 3")

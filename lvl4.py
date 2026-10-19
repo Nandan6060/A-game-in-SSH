@@ -111,7 +111,7 @@ def play(inventory):
 
       elif fuse_placed and valves_solved:
         slow_print("The gate's lock hums, then clicks. The iron bars swing open.")
-        slow_print("You climb the stairs on the other side. Behind you the boiler knocks once more.")
+        slow_print("You climb the ladder on the other side. Behind you the boiler knocks once more.")
         time.sleep(1)
         return
 

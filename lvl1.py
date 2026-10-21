@@ -12,6 +12,7 @@ def play(inventory):
 
   slow_print("You wake up in a dark locked room.  " \
   "You need to find a way out.")
+  slow_print("You can't remeber how you got here. You can't even remember your name.")
   slow_print("The air is damp and you can hear the faint " \
   "sound of dripping water.")
   slow_print("You notice a small window high up on the wall," \

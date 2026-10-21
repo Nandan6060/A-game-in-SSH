@@ -137,6 +137,7 @@ def play(inventory):
           slow_print("'You forgot to look behind you'")
           time.sleep(1)
           slow_print("You throw the door open and run through. The library closes behind you.")
+          inventory.remove("iron key")
           return
         else:
           slow_print("The dial spins. Nothing happens")

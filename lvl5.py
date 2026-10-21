@@ -34,7 +34,7 @@ def play(inventory):
         elif word.lower() == "sun":
           slow_print("The lock clicks. Inside, under a child's dress, is a torn piece of a photograph. (+1 photo piece 1)")
           inventory.append("photo piece 1")
-          truck_open = True
+          trunk_open = True
         else:
           slow_print("The dial spins. The lock doesnt budge")
 
@@ -75,7 +75,8 @@ def play(inventory):
       elif "photo piece 1" in inventory and "photo piece 2" in inventory and "photo piece 3" in inventory and "photo piece 4" in inventory:
         slow_print("You lay the four pieces side by side. They fit together")
         slow_print("It's a photograph of a woman and a girl, holding hands infront of a tall house.")
-        slow_print("The girl has a scar on her wrist. It looks exactly like the one on yours.")
+        slow_print("The girl has a scar on her wrist, Shaped exactly like the symbol from the journal...")
+        slow_print("You look down at your own wrist. The same mark is there.")
         slow_print("On the back, in faded ink: 'For my girl's tenth birthday. 03/14.'")
         slow_print("03/14. Something tells you it's important")
         inventory.remove("photo piece 1")

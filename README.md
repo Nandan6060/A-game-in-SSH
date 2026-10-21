@@ -19,5 +19,10 @@ A text based escape room with 7 levels
 - I will be adding a feature where the text prints a little faster if space is held down(I have no idea how to do it properly right now).
 - I am planning on continuing the game as a long term project(maybe like a few more sequels).
 
+## Bugs
+- If you find any bugs report it in the issues tabd
+
+## Thank you
+
 
 

@@ -1,3 +1,4 @@
+<img width="652" height="230" alt="Screenshot 2026-10-18 201427" src="https://github.com/user-attachments/assets/bc4e4a50-4553-40fd-a94f-c7b229244ef3" />
 # A-game-in-SSH
 A text based escape room with 7 levels
 

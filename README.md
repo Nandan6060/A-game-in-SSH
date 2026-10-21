@@ -2,7 +2,7 @@
 
 
 # The Mark: The House that waited
-- An escape room made for the wrong tool ysws event
+- The Mark is a text based escape room made for the wrong tool ysws hackclub event
 
 ## How to play
 - Install python (If you dont have it already)

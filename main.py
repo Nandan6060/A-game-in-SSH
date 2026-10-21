@@ -1,3 +1,11 @@
+from utils import slow_print
+
+slow_print("=== THE MARK ===")
+slow_print("Chapter One: The House That Waited")
+print()
+input("Press enter to begin...")
+print()
+
 import lvl1
 import lvl2
 import lvl3

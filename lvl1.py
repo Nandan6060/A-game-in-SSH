@@ -51,7 +51,7 @@ def play(inventory):
         slow_print("The brass key fits perfectly into the lock.")
         slow_print("You open the journal and find a series of cryptic notes and drawings. One page has a strange symbol that matches the one on the piece of paper you found on the table.")
         slow_print("A small silver key falls out of the journal. You pick it up and put it in your pocket.")
-        slow_print("A page says: 'The sun is never where it should be. Look where the light lies.'")
+        slow_print("A page says: 'The sun is never where it should be. Look where the light lies.' The page is stained with a paint mark as if it was meant for the painting.")
         inventory.remove("brass key")
         inventory.append("silver key")
         journal_opened = True
@@ -83,7 +83,7 @@ def play(inventory):
         else:
           slow_print("The keypad beeps happily, But the door doesnt move.")
           slow_print("Something slides out from under the door. It's a piece of paper")
-          slow_print("'Did you really think it would be that easy to escape the room? The door was never the way out, The real way out is where the light comes from")
+          slow_print("'Did you really think it would be that easy to escape the room? The door was never the way out, The real way out is where the light comes from. You remember the window at the top.")
           door_hint_found = True
       elif code == "2580":
         slow_print("The keypad glows green. The door creaks open.")

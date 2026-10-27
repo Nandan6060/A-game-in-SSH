@@ -81,6 +81,7 @@ def play(inventory):
         slow_print("You have nothing that fits the keyhole")
       slow_print(figure_lines[min(painting_looks, len(figure_lines)-1)])
       painting_looks += 1
+
     elif action == "2":
       slow_print("The desk is covered in dust. A dead lamp sits on it, and a library catalogue lies open.")
       slow_print("One entry is circled in red pen: 'The Watcher's Almanac. Top shelf, far left.'")
@@ -90,6 +91,9 @@ def play(inventory):
       else:
         slow_print("There's a small drawer with a 4-digit dial lock.")
         code = input("Enter 4 digit code (or press enter to cancel): ")
+        if almanac_read:
+          slow_print("The dial wants numbers. The almanac's answer is a word. There must be a way to turn one into another.")
+        
         if code == "":
           slow_print("You step back from the desk.")
         elif code == "6145":
@@ -109,6 +113,7 @@ def play(inventory):
         slow_print("You roll the ladder to the far left and climb to the top shelf.")
         slow_print("The Watcher's Almanac is right where the catalogue said. You open it.")
         slow_print("On the first page, in faded ink: 'What happens to ink, and to memory, if you wait long enough?'")
+        slow_print("Underneath, four empty boxes are drawn, like the spaces for a four letter word.")
         almanac_read = True
         whisper_turn = turns + 1
 
@@ -157,11 +162,11 @@ def play(inventory):
     if almanac_read and not whisper_heard and turns >= whisper_turn:
       time.sleep(1)
       slow_print("The bulb flickers. A voice whispers from between the shelves: ")
-      slow_print("'The dead are filed in order. A is the first and the rest follow.'")
+      slow_print("'The dead are filed in order, and so is the alphabet. Your answer is a word. but the dial wants numbers. Turn each letter into its place: A is the first and the rest follow.'")
       whisper_heard = True
     elif creep_ok and random.randint(1, 4) == 1:
       if whisper_heard and random.randint(1, 3) == 1:
-        slow_print("'The dead are filed in order. A is the first and the rest follow.'")
+        slow_print("'The dead are filed in order, and so is the alphabet. Your answer is a word. but the dial wants numbers. Turn each letter into its place: A is the first and the rest follow.'")
       else:
         slow_print(random.choice(creepy_lines))
 

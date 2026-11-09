@@ -5,14 +5,21 @@
 - The Mark is a text based escape room made for the wrong tool ysws hackclub event
 
 ## How to play
+
+### Option 1 (The smoothest)
 - Install python (If you dont have it already)
 - Download this repo
 - Run the play.bat file to enter into the game
 - choose your option by typing in the number of the option
 
+### Option 2 (Over SSH)
+- run the below command to connect and play over ssh
+- ssh -p 47970 play@bore.pub
+- (The server can be down sometimes)
+
 ## Tips
 - Pay attention to everything. Some things only make sense after you've seen something else
-- Remeber numbers and times. They will be useful later on.
+- Remember numbers and times. They will be useful later on.
 - You cannot go back to earlier rooms. So take your time and pay attention to everything
 
 ## About
@@ -24,7 +31,7 @@
 - I am planning on continuing the game as a long term project(maybe like a few more sequels).
 
 ## Bugs
-- If you find any bugs report it in the issues tabd
+- If you find any bugs report it in the issues tab
 
 ## Thank you
 

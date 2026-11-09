@@ -19,18 +19,13 @@ except ImportError:
       return True
     return False
 
-OVER_SSH = bool(os.environ.get("SSH_CONNECTION"))
-
+CHUNK = 3 if os.environ.get("SSH_CONNECTION") else 1
 
 def slow_print(text, delay=0.03):
-  if OVER_SSH:
-    print(text, flush=True)
-    time.sleep(min(0.5, len(text) * delay / 10))
-    return
-  current = delay
-  for letter in text:
-    print(letter, end="", flush=True)
+  current = delay * CHUNK
+  for i in range(0, len(text), CHUNK):
+    print(text[i:i + CHUNK], end ="", flush = True)
     if key_pressed():
-      current = delay / 8
+      current = delay * CHUNK/8
     time.sleep(current)
   print()

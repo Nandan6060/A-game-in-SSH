@@ -15,6 +15,7 @@
 ### Option 2 (Over SSH)
 - run the below command to connect and play over ssh
 - ssh -p 47970 play@bore.pub
+- it will ask you if you want to add the fingerprint to ur pc, Type yes
 - (The server can be down sometimes)
 
 ## Tips

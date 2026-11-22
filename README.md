@@ -6,13 +6,16 @@
 
 ## How to play
 
-### Option 1 (The smoothest)
+### Option 1
+- Download the .exe file from the releases page and run it.
+
+### Option 2
 - Install python (If you dont have it already)
 - Download this repo
 - Run the play.bat file to enter into the game
 - choose your option by typing in the number of the option
 
-### Option 2 (Over SSH)
+### Option 3 (Over SSH)
 - run the below command to connect and play over ssh
 - ssh -p 47970 play@bore.pub
 - if the above command does not work try:

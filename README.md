@@ -7,7 +7,12 @@
 ## How to play
 
 ### Option 1
-- Download the .exe file from the releases page and run it.
+- Download the .exe file
+- The following screen will appear:
+- <img width="395" height="371" alt="image" src="https://github.com/user-attachments/assets/d3984306-7d21-4b58-878d-d4dd930ace79" />
+- Click More info
+- Click Run anyway
+
 
 ### Option 2
 - Install python (If you dont have it already)
@@ -33,7 +38,6 @@
 - 7 levels, 2 endings
 
 ## Future
-- I will be adding a feature where the text prints a little faster if space is held down(I have no idea how to do it properly right now).
 - I am planning on continuing the game as a long term project(maybe like a few more sequels).
 
 ## Bugs
